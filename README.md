@@ -22,3 +22,31 @@ As Java is close to C++ and C#, it makes it easy for programmers to switch to Ja
 
 ### HelloWorld.java File
 
+This file shows a simple program that prints Hello World.
+
+**What is done in the program?**
+- We created a class `HelloWorld`
+
+Syntax:
+```
+class HelloWorld {
+//body of the class
+}
+```
+
+- This class contains a main function `public static void main()`
+
+Syntax:
+```
+public static void main(String args[]) {
+//body of the main function
+}
+```
+
+- This main function is the function from where our program starts its execution. This main function contains a predefined function `System.out.println()` which is used to print/display the output the screen.
+
+Syntax:
+```
+System.out.println("");
+```
+

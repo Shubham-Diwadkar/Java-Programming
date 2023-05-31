@@ -41,7 +41,7 @@ java File_Name
 
 ### HelloWorld.java File
 
-This file shows a simple program that prints Hello World.
+This Java program prints the message "Hello, World!" to the console.
 
 **What is done in the program?**
 - We created a class `HelloWorld`
@@ -71,6 +71,7 @@ System.out.println("");
 
 #### Output
 
+The program will output the following message,
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/bcd9cc74-3baa-402e-9883-f58fb096254f)
 
 ### Mathematical_Calculations.java File
@@ -91,3 +92,7 @@ The output will be displayed in the console window.
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/a847e0b5-8a32-4ec3-89ba-d08016e4047e)
 
 ![Thankyou](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/a267e3dd-26ac-4472-9c3e-54d8e0425868)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

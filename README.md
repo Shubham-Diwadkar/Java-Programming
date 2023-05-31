@@ -54,4 +54,8 @@ System.out.println("");
 
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/bcd9cc74-3baa-402e-9883-f58fb096254f)
 
+### Mathematical_Calculations.java File
+
+
+
 ![Thankyou](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/a267e3dd-26ac-4472-9c3e-54d8e0425868)

@@ -72,6 +72,7 @@ System.out.println("");
 #### Output
 
 The program will output the following message,
+
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/bcd9cc74-3baa-402e-9883-f58fb096254f)
 
 ### Mathematical_Calculations.java File

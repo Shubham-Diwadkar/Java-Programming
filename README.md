@@ -91,8 +91,8 @@ The output will be displayed in the console window.
 
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/a847e0b5-8a32-4ec3-89ba-d08016e4047e)
 
-![Thankyou](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/a267e3dd-26ac-4472-9c3e-54d8e0425868)
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+![Thankyou](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/a267e3dd-26ac-4472-9c3e-54d8e0425868)

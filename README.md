@@ -20,6 +20,25 @@ As Java is close to C++ and C#, it makes it easy for programmers to switch to Ja
 - Games
 - Database connection and much more!
 
+## Prerequisites
+
+To run this program, you need to have Java Development Kit (JDK) installed on your machine. If you don't have JDK installed, you can download it from the official Oracle website: [Java SE Development Kit Downloads](https://www.oracle.com/java/technologies/javase-jdk14-downloads.html)
+
+## How to Run
+
+1. Make sure you have JDK installed and configured on your system.
+2. Download the file you like from this repository.
+3. Open a command prompt or terminal and navigate to the directory where you saved the file.
+4. Compile the Java file.
+```
+javac File_Name.java
+```
+6. Once the compilation is successful, run the program.
+```
+java File_Name
+```
+8. The program will execute and display the calculated results in the console.
+
 ### HelloWorld.java File
 
 This file shows a simple program that prints Hello World.
@@ -56,6 +75,19 @@ System.out.println("");
 
 ### Mathematical_Calculations.java File
 
+This Java program performs basic mathematical calculations using two variables, `A` and `B`. The calculations include addition, subtraction, multiplication, and division. The results are printed to the console.
 
+#### Output
+
+The program will output the following mathematical calculations:
+
+- The sum of `A` and `B`
+- The difference of `A` and `B`
+- The product of `A` and `B`
+- The quotient of `A` and `B`
+
+The output will be displayed in the console window.
+
+![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/a847e0b5-8a32-4ec3-89ba-d08016e4047e)
 
 ![Thankyou](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/a267e3dd-26ac-4472-9c3e-54d8e0425868)

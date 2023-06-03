@@ -92,6 +92,14 @@ The output will be displayed in the console window.
 
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/a847e0b5-8a32-4ec3-89ba-d08016e4047e)
 
+### If_Program.java File
+
+This program demonstrates the usage of an `if` statement in Java.
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/8a6c3cb2-6096-4a78-b3b3-ddeae600fea3)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

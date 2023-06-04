@@ -144,6 +144,18 @@ This program demonstrates the usage of an `if-else if-else` statement in Java.
 - Prints "Good day" if it is less than 18.
 - Prints "Good evening" otherwise.
 
+#### Syntax
+
+```
+if (condition1) {
+  // block of code to be executed if condition1 is true
+} else if (condition2) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  // block of code to be executed if the condition1 is false and condition2 is false
+}
+```
+
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/f9cfde0d-a018-4bf3-a47a-955c25503b04)

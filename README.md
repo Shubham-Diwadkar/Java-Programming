@@ -82,14 +82,17 @@ This Java program performs basic mathematical calculations using two variables, 
 
 The program will output the following mathematical calculations:
 
-- The sum of `A` and `B`
-- The difference of `A` and `B`
-- The product of `A` and `B`
-- The quotient of `A` and `B`
+- The Sum of `A` and `B`
+- The Difference of `A` and `B`
+- The Product of `A` and `B`
+- The Quotient of `A` and `B`
+- The Modulo(Remainder) of `A` and `B`
+- The Exponentiation(Power) of `A` and `B`
+- The Square Roots of both `A` and `B` respectively
 
 The output will be displayed in the console window.
 
-![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/a847e0b5-8a32-4ec3-89ba-d08016e4047e)
+![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/1fa999fa-e313-4d74-9258-9a94204a0860)
 
 ### If_Program.java File
 

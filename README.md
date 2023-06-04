@@ -160,6 +160,43 @@ if (condition1) {
 
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/f9cfde0d-a018-4bf3-a47a-955c25503b04)
 
+### Switch_Cases.java File
+
+This program demonstrates the usage of a `switch` statement in Java.
+
+ The program checks the value of `day` and prints the corresponding day of the week based on the value:
+- If `day` is 1, it prints "Monday".
+- If `day` is 2, it prints "Tuesday".
+- If `day` is 3, it prints "Wednesday".
+- If `day` is 4, it prints "Thursday".
+- If `day` is 5, it prints "Friday".
+- If `day` is 6, it prints "Saturday".
+- If `day` is 7, it prints "Sunday".
+- If `day` is none of the above, it prints "Please enter a number between 1-7".
+
+#### Syntax
+
+```
+switch(expression) {
+  case 1:
+    // code block
+    break;
+  case 2:
+    // code block
+    break;
+  case n:
+    // code block
+    break;
+  default:
+    // code block
+    break;
+}
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/a4681a4a-f73c-4186-926f-47d0b5435965)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

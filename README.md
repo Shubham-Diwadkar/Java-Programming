@@ -174,6 +174,11 @@ This program demonstrates the usage of a `switch` statement in Java.
 - If `day` is 7, it prints "Sunday".
 - If `day` is none of the above, it prints "Please enter a number between 1-7".
 
+The switch expression is evaluated once.
+The value of the expression is compared with the values of each case.
+If there is a match, the associated block of code is executed.
+The break and default keywords are optional, and will be described later in this chapter.
+
 #### Syntax
 
 ```

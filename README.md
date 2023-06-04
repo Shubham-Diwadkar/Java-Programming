@@ -98,17 +98,39 @@ This program demonstrates the usage of an `if` statement in Java.
 - The program will check if the value of `x` is equal to 10.
 - Print the values of `x` and `y` if the condition is true.
 
+#### Syntax
+
+```
+if (condition) {
+  // block of code to be executed if the condition is true
+}
+```
+
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/8a6c3cb2-6096-4a78-b3b3-ddeae600fea3)
 
-### Of_Else_Program.java File
+### If_Else_Program.java File
 
 This program demonstrates the usage of an `if-else` statement in Java.
 
 - The program checks the value of `time`.
 - Prints "Good Day" if it is less than 18.
 - Otherwise prints "Good Evening".
+
+#### Syntax
+
+```
+if (condition) {
+  // block of code to be executed if the condition is true
+} else {
+  // block of code to be executed if the condition is false
+}
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/8bc9bf45-3ff1-45c1-9d1f-0262ddc83ad7)
 
 ## License
 

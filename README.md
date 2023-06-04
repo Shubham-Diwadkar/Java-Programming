@@ -43,7 +43,6 @@ java File_Name
 
 This Java program prints the message "Hello, World!" to the console.
 
-**What is done in the program?**
 - We created a class `HelloWorld`
 
 Syntax:
@@ -96,9 +95,20 @@ The output will be displayed in the console window.
 
 This program demonstrates the usage of an `if` statement in Java.
 
+- The program will check if the value of `x` is equal to 10.
+- Print the values of `x` and `y` if the condition is true.
+
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/8a6c3cb2-6096-4a78-b3b3-ddeae600fea3)
+
+### Of_Else_Program.java File
+
+This program demonstrates the usage of an `if-else` statement in Java.
+
+- The program checks the value of `time`.
+- Prints "Good Day" if it is less than 18.
+- Otherwise prints "Good Evening".
 
 ## License
 

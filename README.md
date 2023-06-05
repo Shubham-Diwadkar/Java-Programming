@@ -164,7 +164,7 @@ if (condition1) {
 
 This program demonstrates the usage of a `switch` statement in Java.
 
- The program checks the value of `day` and prints the corresponding day of the week based on the value:
+The program checks the value of `day` and prints the corresponding day of the week based on the value:
 - If `day` is 1, it prints "Monday".
 - If `day` is 2, it prints "Tuesday".
 - If `day` is 3, it prints "Wednesday".
@@ -201,6 +201,15 @@ switch(expression) {
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/a4681a4a-f73c-4186-926f-47d0b5435965)
+
+### While_Loop.java File
+
+This program demonstrates the usage of a `while` loop in Java.
+
+The program uses a `while` loop to repeatedly print the value of `i` as long as it is less than 6:
+- Initialize `i` to 1.
+- While `i` is less than 6, print the value of `i`.
+- Increment `i` by 1.
 
 ## License
 

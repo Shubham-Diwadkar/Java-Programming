@@ -294,6 +294,27 @@ for (initialization; condition; update) {
 
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/93863cbb-e2da-4c52-a6c0-fbf9cf11b63d)
 
+### For_Each_Loop.java File
+
+This program demonstrates the usage of a for-each loop (enhanced for loop) in Java.
+
+The program uses a for-each loop to iterate over each element in an array of cars and prints them:
+- Declare and initialize a String array named `cars` with some car names.
+- Use the for-each loop syntax to iterate over each element in the `cars` array.
+- Print each car name using `System.out.println()`.
+
+#### Syntax
+
+```
+for (type variableName : arrayName) {
+  // code block to be executed
+}
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/8f8542e2-4e32-478d-8fe8-202b4104512f)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

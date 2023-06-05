@@ -223,6 +223,29 @@ while (condition) {
 
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/6d668317-ec9a-46d6-97e9-07afa66f97cf)
 
+### Do_While_Loop.java File
+
+This program demonstrates the usage of a `do-while` loop in Java.
+
+The program uses a `do-while` loop to repeatedly print the value of `i` as long as it is less than 5:
+- Initialize `i` to 0.
+- Print the value of `i`.
+- Increment `i` by 1.
+- Repeat the above steps until `i` is no longer less than 5.
+
+#### Syntax
+
+```
+do {
+  // code block to be executed
+}
+while (condition);
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/4ddcfda6-2dfe-4a0c-b6a1-239c73955330)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

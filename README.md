@@ -211,6 +211,18 @@ The program uses a `while` loop to repeatedly print the value of `i` as long as 
 - While `i` is less than 6, print the value of `i`.
 - Increment `i` by 1.
 
+#### Syntax
+
+```
+while (condition) {
+  // code block to be executed
+}
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/6d668317-ec9a-46d6-97e9-07afa66f97cf)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

@@ -1,6 +1,6 @@
 // Write a program to illustrate nested-for loops in java.
 
-public class Nested_For_Loop
+public class Nested_For_Loops
 {
     public static void main(String[] args)
     {

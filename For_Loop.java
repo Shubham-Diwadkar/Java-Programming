@@ -4,10 +4,10 @@ public class For_Loop
 {
     public static void main(String[] args)
     {
-        int i;
+        int i;                                          // Declare the variable i.
         for(i = 0; i < 5; i++)
         {
-            System.out.println("Value of i: " + i);
+            System.out.println("Value of i: " + i);     // Print the value of i.
         }
     }
 }

@@ -246,6 +246,28 @@ while (condition);
 
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/4ddcfda6-2dfe-4a0c-b6a1-239c73955330)
 
+### For_Loop.java File
+
+This program demonstrates the usage of a `for` loop in Java.
+
+The program uses a `for` loop to iterate from 0 to 4 and prints the value of `i` on each iteration:
+- Initialize the variable `i` to 0.
+- Repeat the loop as long as `i` is less than 5.
+- Print the value of `i`.
+- Increment the value of `i` by 1.
+
+#### Syntax
+
+```
+for (statement 1; statement 2; statement 3) {
+  // code block to be executed
+}
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/d1b7b685-6368-463e-91f4-7640c5aac07c)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

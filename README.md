@@ -268,6 +268,32 @@ for (statement 1; statement 2; statement 3) {
 
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/d1b7b685-6368-463e-91f4-7640c5aac07c)
 
+### Nested_For_Loops.java File
+
+This program demonstrates the usage of nested `for` loops in Java.
+
+The program uses nested `for` loops to print a sequence of numbers:
+- The outer loop iterates from 0 to 2.
+- On each iteration of the outer loop, it prints the current value of `i`.
+- The inner loop iterates from 1 to 3.
+- On each iteration of the inner loop, it prints the current value of `j`.
+
+#### Syntax
+
+```
+for (initialization; condition; update) {
+    // Outer loop statements
+
+    for (initialization; condition; update) {
+        // Inner loop statements
+    }
+}
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/93863cbb-e2da-4c52-a6c0-fbf9cf11b63d)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

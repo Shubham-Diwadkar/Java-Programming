@@ -315,6 +315,56 @@ for (type variableName : arrayName) {
 
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/8f8542e2-4e32-478d-8fe8-202b4104512f)
 
+### Single_Dimensional_Arrays.java File
+
+This program demonstrates the usage of single dimensional arrays in Java.
+
+The program showcases different aspects of single dimensional arrays:
+- It creates a String array named `cars` with pre-defined car names.
+- Prints them using individual `System.out.println()` statements.
+- It modifies the first element of the `cars` array to "Opel".
+
+Sntax:
+```
+arrayName[index] = newValue;
+```
+- Prints the updated array.
+- It determines the length of the `cars` array using the `length` property.
+
+Sntax:
+```
+arrayName.length;
+```
+- It creates a String array named `fruits`.
+- Iterates over its elements using a traditional `for` loop.
+- It creates an integer array named `numbers`.
+- Iterates over its elements using a for-each loop.
+
+Syntax within for loop or for-each loop:
+```
+arrayName[index];
+```
+
+#### Syntax
+```
+dataType[] arrayName;
+```
+OR
+```
+dataType arrayName[];
+```
+OR
+```
+arrayName = new dataType[arraySize];
+```
+OR
+```
+dataType[] arrayName = {value1, value2, value3, ...};
+```
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/d1ada345-b5d2-4e75-9e43-c0cb2eea01d9)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

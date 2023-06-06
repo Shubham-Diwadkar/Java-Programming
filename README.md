@@ -365,6 +365,29 @@ dataType[] arrayName = {value1, value2, value3, ...};
 
 ![image](https://github.com/Shubham-Diwadkar/JAVA-EXPERIMENT/assets/125255910/d1ada345-b5d2-4e75-9e43-c0cb2eea01d9)
 
+### Multi_Dimentional_Arrays.java File
+
+This program demonstrates the usage of multi-dimensional arrays in Java.
+
+The code initializes multi-dimensional arrays and performs various operations on them.
+
+- The `myNumbers` array is a two-dimensional array of integers, initialized with pre-defined values.
+- The program iterates over the elements in the `myNumbers` array using nested `for` loops and prints each element.
+- It demonstrates accessing and modifying a specific element in the `myNumbers` array.
+- The program prints the `myNumbers` array after modifying the accessed element.
+- The `myColors` array is a two-dimensional array of strings, initialized with pre-defined color names.
+- The program iterates over the elements in the `myColors` array using nested `for` loops and prints each element.
+
+#### Syntax
+
+```
+dataType[][] arrayName = { {value1, value2, value3,...}, {value4, value5, value6,...} };
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/21a23cad-d6f7-4957-a6ff-3afbcc335b6c)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

@@ -47,7 +47,7 @@ This Java program prints the message "Hello, World!" to the console.
 
 Syntax:
 ```
-class HelloWorld {
+public class ClassName {
 //body of the class
 }
 ```

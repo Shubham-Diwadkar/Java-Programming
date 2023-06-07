@@ -460,6 +460,29 @@ The program will output the results of different mathematical functions such as:
 
 ### Basic_Classes_Objects.java File
 
+This Java program demonstrates the usage of basic classes and objects.
+
+- The program creates two objects of the `Basic_Classes_Objects` class
+- Accesses the value of the variable `x` from each object.
+- It demonstrates how objects can have their own independent copies of instance variables.
+
+#### Syntax
+
+```
+// Class declaration
+class ClassName {
+    // Class members (fields, methods, constructors, etc.)
+    // ...
+}
+
+// Creating an object of the class
+ClassName objectName = new ClassName();
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/b2d019d9-8926-4631-ba0a-7f96e1de43a1)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

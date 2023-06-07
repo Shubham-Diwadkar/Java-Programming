@@ -404,6 +404,60 @@ destinationType variableName = (destinationType) sourceValue;
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/c6693286-15a1-4947-ac86-a336431421c3)
 
+### Mathematical_Functions.java File
+
+This Java program demonstrates various mathematical functions available in the `Math` class.
+
+The program will output the results of different mathematical functions such as:
+- Finding the minimum number. 
+- Finding the maximum number.
+- Finding the square root.
+- Finding the absolute value.
+- Random number generation.
+- Finding the exponential value.
+- Rounding of numbers.
+
+#### Syntax
+
+- Finding the minimum number.
+  ```
+  <dataType> variableName = Math.min(intVal1,intVal2);
+  ```
+- Finding the maximum number.
+  ```
+  <dataType> variableName = Math.max(intVal1,intVal2);
+  ```
+- Finding the square root.
+  ```
+  <dataType> variableName = Math.sqrt(intVal1);
+  ```
+- Finding the absolute value.
+  ```
+  <dataType> variableName = Math.abs(intVal1);
+  ```
+- Random number generation.
+  ```
+  <dataType> variableName = Math.random();
+  ```
+- Finding the exponential value.
+  ```
+  <dataType> variableName = Math.exp(intVal1);
+  ```
+- Rounding of numbers.
+  ```
+  <dataType> variableName = Math.round(doubleVal1);
+  
+  <dataType> variableName = Math.ceil(doubleVal1);
+  
+  <dataType> variableName = Math.floor(doubleVal1);
+  
+  <dataType> variableName = Math.rint(doubleVal1);
+  ```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/2de60d73-3c71-4f32-85be-c2785a9c15ee)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

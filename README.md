@@ -388,6 +388,22 @@ dataType[][] arrayName = { {value1, value2, value3,...}, {value4, value5, value6
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/21a23cad-d6f7-4957-a6ff-3afbcc335b6c)
 
+### Type_Casting.java File
+
+This Java program demonstrates implicit and explicit type casting between `int` and `double` data types.
+The program will output the original values and the type-casted values, demonstrating the process of type casting.
+
+#### Syntax
+
+For both Implicit and Explicit Castings
+```
+destinationType variableName = (destinationType) sourceValue;
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/c6693286-15a1-4947-ac86-a336431421c3)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

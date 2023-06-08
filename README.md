@@ -507,6 +507,50 @@ The program demonstrates how you can access variables from one class in another 
 
 #### Syntax
 
+```
+// MainClass.java
+
+// Import statements (if necessary)
+// ...
+
+// First class declaration
+class FirstClass {
+    // Class members (fields, methods, constructors, etc.)
+    // ...
+}
+
+// Second class declaration
+class SecondClass {
+    // Class members (fields, methods, constructors, etc.)
+    // ...
+}
+
+// Main class (containing the main method)
+public class MainClass {
+    public static void main(String[] args) {
+        // Main method code
+        // ...
+    }
+}
+```
+OR
+```
+//MainClass.java
+
+public class MainClass {
+  // Class members (fields, methods, constructors, etc.)
+}
+```
+```
+//SubClass.java
+
+public class SubClass {
+  public static void main(String[] args) {
+  // Acessing the class members of MainClass
+  ClassName ObjectName = new ClassDefualtConstructor();
+  }
+}
+```
 
 ## License
 

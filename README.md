@@ -552,6 +552,10 @@ public class SubClass {
 }
 ```
 
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/8f502b1d-8e25-4f6c-b7e6-b8e50777c7ec)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

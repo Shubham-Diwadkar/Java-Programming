@@ -483,6 +483,31 @@ ClassName objectName = new ClassName();
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/b2d019d9-8926-4631-ba0a-7f96e1de43a1)
 
+### Multiple_Classes1.java File with Multiple_Classes2.java File
+
+#### Multiple_Classes1.java File
+
+This Java program demonstrates the use of multiple classes in Java.
+
+- The program consists of a class `Multiple_Classes1`.
+- It is the main class that contains the entry point of the program.
+- It declares an instance variable `x` with a value of 5.
+
+#### Multiple_Classes2.java File
+
+This Java program demonstrates the use of multiple classes in Java.
+
+The program consists of two classes: `Multiple_Classes1` and `Multiple_Classes2`.
+
+- `Multiple_Classes1` declares an instance variable `x` with a value of 5.
+- `Multiple_Classes2` is the main class that contains the entry point of the program.
+- It creates an object of `Multiple_Classes1` and accesses the variable `x` from it.
+
+The program demonstrates how you can access variables from one class in another class by creating objects and using the dot notation.
+
+#### Syntax
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

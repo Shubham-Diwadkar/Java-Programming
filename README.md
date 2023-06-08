@@ -1,28 +1,24 @@
 # Java-Programming
 
-Java is a popular programming language, created in 1995.
-It is owned by Oracle, and more than 3 billion devices run Java.
+Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.
+It was designed to be platform-independent, robust, and secure, making it a popular choice for developing a wide range of applications.
 
-Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.).
-It is one of the most popular programming language in the world.
-It is easy to learn and simple to use.
-It is open-source and free.
-It is secure, fast and powerful.
-It has a huge community support (tens of millions of developers).
-Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs.
-As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa.
+## Key Features
+1. Platform-Independence: Java programs can run on any platform with a Java Virtual Machine (JVM), which acts as an intermediary between the Java code and the underlying operating system. This "write once, run anywhere" capability allows Java applications to be developed on one platform and executed on another without modification.
+2. Object-Oriented: Java is an object-oriented programming (OOP) language, which means it emphasizes the use of objects and classes to represent and manipulate data. It supports concepts such as encapsulation, inheritance, and polymorphism, making it suitable for building modular and extensible applications.
+3. Garbage Collection: Java manages memory allocation and deallocation automatically through a process called garbage collection. Developers don't have to manually allocate or free memory, which helps simplify memory management and reduces the risk of memory leaks.
+4. Robustness and Safety: Java incorporates features like strong type checking, exception handling, and automatic memory management to ensure the reliability and safety of programs. It includes built-in mechanisms to catch and handle runtime errors, preventing crashes and offering more robust applications.
+5. Large Standard Library: Java comes with a comprehensive standard library that provides a wide range of pre-built classes and methods for common programming tasks. This library simplifies development by offering ready-to-use functionality for tasks like input/output operations, networking, database connectivity, and much more.
+6. Wide Adoption and Community Support: Java has gained widespread popularity and has a large and active developer community. This means there are numerous resources, forums, and libraries available to help with learning Java and solving programming challenges.
 
-## Uses
-- Mobile applications (specially Android apps)
-- Desktop applications
-- Web applications
-- Web servers and application servers
-- Games
-- Database connection and much more!
+## Usage
+To write and run Java programs, you need to install the Java Development Kit (JDK), which includes the Java compiler (javac) for compiling Java source code into bytecode, and the Java Virtual Machine (JVM) for executing the bytecode.
 
-## Prerequisites
+Once installed, you can use any text editor or Integrated Development Environment (IDE) to write your Java code.
+Following are the steps to run the code.
 
-To run this program, you need to have Java Development Kit (JDK) installed on your machine. If you don't have JDK installed, you can download it from the official Oracle website: [Java SE Development Kit Downloads](https://www.oracle.com/java/technologies/javase-jdk14-downloads.html)
+## Installation Links
+JDK v1.8: [Chick Here](https://www.oracle.com/in/java/technologies/javase/javase8-archive-downloads.html)
 
 ## How to Run
 

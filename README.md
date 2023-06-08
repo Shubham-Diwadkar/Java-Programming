@@ -556,6 +556,30 @@ public class SubClass {
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/4fbf87d0-7073-41df-a3d7-1fd8b47ee9f7)
 
+### Default_Constructors.java File
+
+This Java program demonstrates the usage of a default constructor in a class.
+
+- The program defines a class `Defualt_Constructors` with an instance variable `x` and a default constructor.
+- The default constructor initializes `x` with a value of 5.
+- The program creates an object of the `Defualt_Constructors` class
+- Prints the value of `x` fetched from the constructor.
+
+#### Syntax
+```
+public Constructors() {
+// Constructor body
+   }
+```
+AND
+```
+Constructors myConstructors = new Constructors();
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/7f84300c-a8ec-4986-b139-c67666fe7c25)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

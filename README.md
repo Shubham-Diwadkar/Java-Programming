@@ -554,7 +554,7 @@ public class SubClass {
 
 #### Output
 
-![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/8f502b1d-8e25-4f6c-b7e6-b8e50777c7ec)
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/4fbf87d0-7073-41df-a3d7-1fd8b47ee9f7)
 
 ## License
 

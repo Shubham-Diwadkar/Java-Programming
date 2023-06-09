@@ -693,6 +693,23 @@ AND
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/811b357c-7a72-4887-98fe-5a04f8248c92)
 
+### Scopes.java File
+
+This Java program demonstrates the concept of scopes in Java.
+
+The program showcases different scopes of variables in Java:
+
+- It attempts to print the value of `x` before declaring and initializing it, but encounters an error because the variable is not defined at that point.
+- It declares and initializes the variable `x` with a value of 10 and then prints its value.
+- It attempts to print the value of `y` outside of its block and encounters an error because the variable is not accessible outside of the block where it is declared.
+- It declares and initializes the variable `y` with a value of 100 inside a block and then prints its value.
+
+By running the program, you can observe how variables have different scopes and can only be accessed within their respective scopes.
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/0193d6aa-7add-4dbb-8761-53c58422ddd2)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

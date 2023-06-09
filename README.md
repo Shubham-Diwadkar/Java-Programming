@@ -708,7 +708,7 @@ By running the program, you can observe how variables have different scopes and 
 
 #### Output
 
-![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/0193d6aa-7add-4dbb-8761-53c58422ddd2)
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/e170ba30-57a7-478b-8cbc-9fa351d323ca)
 
 ## License
 

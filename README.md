@@ -616,6 +616,83 @@ public ClassName(parameter1, parameter2, ...) {
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/13a2516c-7ad2-40e2-92bf-0f836b33a7cb)
 
+### Strings.java File
+
+This Java program demonstrates the usage of strings in Java.
+
+The program showcases various operations and manipulations on strings:
+
+- It initializes and prints a string variable `greeting`.
+- It calculates and prints the length of the string using the `length()` method.
+- It converts the string to upper case using `toUpperCase()` and prints the result.
+- It converts the string to lower case using `toLowerCase()` and prints the result.
+- It locates the index of a character using `indexOf()` and prints the result.
+- It concatenates strings using the `+` operator and the `concat()` method.
+- It demonstrates the difference between using numbers as integers and strings when performing addition.
+- It showcases the usage of special characters in strings, such as backslash, double quote, single quote, and others.
+
+#### Syntax
+
+Length:
+```
+str.length();
+```
+
+To Upper Case:
+```
+str.toUpperCase();
+```
+
+To Lower Case:
+```
+str.toLowerCase();
+```
+
+Index Of:
+```
+str.indexOf("");
+```
+
+Concatenation:
+```
+str1.concat(str2);
+```
+OR
+```
+String result = str1 + str2;
+```
+
+Special Characters:
+```
+\n
+```
+```
+\t
+```
+```
+\r
+```
+```
+\f
+```
+```
+\b
+```
+AND
+```
+\'
+```
+```
+\"
+```
+```
+\\
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/811b357c-7a72-4887-98fe-5a04f8248c92)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

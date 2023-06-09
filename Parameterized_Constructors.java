@@ -14,6 +14,6 @@ public class Parameterized_Constructors
     public static void main(String[] args)
     {
         Parameterized_Constructors myCar = new Parameterized_Constructors(1969, "Mustang");                     // Create an object using the parameterized constructor
-        System.out.println("Car Year: " + myCar.modelYear + "\n \n Car Name: " + myCar.modelName);              // Print the values of modelYear and modelName
+        System.out.println("Car Year: " + myCar.modelYear + "\nCar Name: " + myCar.modelName);                  // Print the values of modelYear and modelName
     }
 }

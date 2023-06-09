@@ -576,6 +576,46 @@ Constructors myConstructors = new Constructors();
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/7f84300c-a8ec-4986-b139-c67666fe7c25)
 
+### Parameterized_Constructor.java File
+
+This Java program demonstrates the usage of parameterized constructors in a class.
+
+The program defines a class `Parameterized_Constructors` with two instance variables:
+- `modelYear` and `modelName`. It also defines a parameterized constructor that takes `year` and `name` as input parameters.
+- Assigns them to the corresponding instance variables.
+- The program creates an object of the `Parameterized_Constructors` class by passing values to the constructor.
+- It then prints the car's model year and name.
+
+#### Syntax
+```
+public class ClassName {
+    // Member variables
+    
+    // Parameterized constructor
+    public ClassName(parameter1, parameter2, ...) {
+        // Constructor body
+        // Initialize member variables with the provided parameters
+    }
+
+    // Other methods and code
+
+    public static void main(String[] args) {
+        // Create objects and use the constructor
+    }
+}
+```
+AND
+```
+public ClassName(parameter1, parameter2, ...) {
+    // Constructor body
+    // Initialize member variables with the provided parameters
+}
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/13a2516c-7ad2-40e2-92bf-0f836b33a7cb)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

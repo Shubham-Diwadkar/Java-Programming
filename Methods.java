@@ -1,3 +1,5 @@
+//Write a program to illustrate methods in java
+
 public class Methods
 {
     static void myMethod()

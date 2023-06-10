@@ -461,6 +461,7 @@ This Java program demonstrates the usage of basic classes and objects.
 - The program creates two objects of the `Basic_Classes_Objects` class
 - Accesses the value of the variable `x` from each object.
 - It demonstrates how objects can have their own independent copies of instance variables.
+- It also determines that, are the objects instances of the classes.
 
 #### Syntax
 
@@ -475,9 +476,14 @@ class ClassName {
 ClassName objectName = new ClassName();
 ```
 
+Instance Of:
+```
+myObj instanceof Main;
+```
+
 #### Output
 
-![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/b2d019d9-8926-4631-ba0a-7f96e1de43a1)
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/ea1c8147-2762-4577-ad84-1d6f19823f2e)
 
 ### Multiple_Classes1.java File with Multiple_Classes2.java File
 

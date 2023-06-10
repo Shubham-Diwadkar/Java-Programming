@@ -716,6 +716,34 @@ By running the program, you can observe how variables have different scopes and 
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/e170ba30-57a7-478b-8cbc-9fa351d323ca)
 
+### Methods.java File
+
+This Java program demonstrates the usage of methods in Java.
+
+The program defines a method `myMethod()` that prints a message when called. It also contains the `main()` method where the program execution starts.
+
+The program showcases the following:
+
+- It prints a message outside of any method call.
+- It calls the `myMethod()` method, which prints a message inside the method.
+- It prints a message outside of the method call again.
+
+By running the program, you can observe how methods allow you to encapsulate a block of code that can be executed at different points in the program.
+
+#### Syntax
+
+```
+public class Main {
+  static void myMethod() {
+    // code to be executed
+  }
+}
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/071344e7-04db-4bfd-9d73-6fc5907e8b98)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

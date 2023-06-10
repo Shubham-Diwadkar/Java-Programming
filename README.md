@@ -742,7 +742,7 @@ public class Main {
 
 #### Output
 
-![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/071344e7-04db-4bfd-9d73-6fc5907e8b98)
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/13e75db7-77e7-4078-bfe8-84d27682498a)
 
 ## License
 

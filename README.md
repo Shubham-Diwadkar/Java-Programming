@@ -744,6 +744,33 @@ public class Main {
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/13e75db7-77e7-4078-bfe8-84d27682498a)
 
+### Parameterized_Methods.java File
+
+This Java program demonstrates the usage of parameterized methods in Java.
+
+The program defines a parameterized method `myMethod()` that takes a string parameter `fname` and prints a message with the provided name.
+
+The program showcases the following:
+
+- It calls the `myMethod()` method multiple times, passing different names as arguments.
+- The method prints a message with the provided name.
+
+By running the program, you can observe how parameterized methods allow you to pass data as arguments and perform specific actions based on the provided values.
+
+#### Syntax
+
+```
+public class MyClass {
+    public static void myMethod(Parameter1, Parameter2,...) {
+        // Method body
+    }
+}
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/ef45a15a-2f92-4e7f-962a-9f5a234a12cd)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

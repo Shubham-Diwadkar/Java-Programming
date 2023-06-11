@@ -771,6 +771,44 @@ public class MyClass {
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/ef45a15a-2f92-4e7f-962a-9f5a234a12cd)
 
+### Method_Overloading.java File
+
+This Java program demonstrates the concept of method overloading in Java.
+
+The program defines two methods named `plusMethod()` that have the same name but different parameter types. One method accepts two integers as parameters, while the other method accepts two doubles. Both methods return the sum of the provided numbers.
+
+The program showcases the following:
+
+- It calls the `plusMethod()` method twice, providing different arguments each time.
+- The method with integer parameters returns an integer sum, while the method with double parameters returns a double sum.
+
+By running the program, you can observe how method overloading allows you to define multiple methods with the same name but different parameter types, enabling more flexible and convenient method usage.
+
+#### Syntax
+
+```
+int myMethod(int x)
+{
+// body of the method
+}
+```
+```
+float myMethod(float x)
+{
+// body of the method
+}
+```
+```
+double myMethod(double x, double y)
+{
+// body of the method
+}
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/38dae08c-6be3-4812-8615-a48af0bb0a24)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

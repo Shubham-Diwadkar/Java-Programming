@@ -1,4 +1,4 @@
-// Write a program to demonstrate Method Overloading
+// Write a program to demonstrate Method Overloading in java
 
 public class Method_Orverloading
 {

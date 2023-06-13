@@ -31,6 +31,8 @@
 27. [Methods](#methodsjava-file)
 28. [Parameterized Methods](#parameterized_methodsjava-file)
 29. [Method Overloading](#method_overloadingjava-file)
+30. [This Keyword](#this_keywordjava-file)
+31. [License](#license)
 
 ## Introduction
 Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.
@@ -841,6 +843,32 @@ double myMethod(double x, double y)
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/38dae08c-6be3-4812-8615-a48af0bb0a24)
+
+### This_Keyword.java File
+
+The this keyword is used in Java to refer to the current object. It is particularly useful when there is a need to differentiate between instance variables and method parameters or local variables that have the same name.
+
+The This_Keyword class has:
+- A private instance variable x.
+- A constructor that takes an integer parameter x.
+- Inside the constructor, the this keyword is used to assign the parameter value to the instance variable.
+
+#### Syntax
+```
+this.variableName
+```
+AND
+```
+this(arguments)
+```
+AND
+```
+methodName(this)
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/d8666ddb-e5d1-4f6c-9dad-a1dcc587fe2f)
 
 ## License
 

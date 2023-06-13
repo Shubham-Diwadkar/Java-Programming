@@ -5,7 +5,8 @@
 3. [Usage](#usage)
 4. [Installation Link](#installation-link)
 5. [How to Run](#how-to-run)
-6. [Hello World](#helloworld\.java-file)
+6. [Hello World](#helloworldjava-file)
+7. [Mathematical Calculations](#mathematical_calculationsjava-file)
 
 ## Introduction
 Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.

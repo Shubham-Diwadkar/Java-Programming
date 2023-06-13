@@ -32,7 +32,8 @@
 28. [Parameterized Methods](#parameterized_methodsjava-file)
 29. [Method Overloading](#method_overloadingjava-file)
 30. [This Keyword Program](#this_keywordjava-file)
-31. [License](#license)
+31. [Garbage Collector](#garbage_collectorjava-file)
+32. [License](#license)
 
 ## Introduction
 Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.
@@ -869,6 +870,28 @@ methodName(this)
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/d8666ddb-e5d1-4f6c-9dad-a1dcc587fe2f)
+
+### Garbage_Collector.java File
+
+This program demonstrates the use of the garbage collector in Java.
+
+In Java, objects that are no longer referenced are eligible for garbage collection.
+The JVM automatically reclaims the memory occupied by these objects to free up resources. The finalize() method is called by the garbage collector before an object is garbage collected.
+
+The Garbage_Collector class overrides the finalize() method to print a message when garbage collection is performed by the JVM.
+In the main() method, two Garbage_Collector objects s1 and s2 are created.
+After setting both objects to null, the System.gc() method is called to request garbage collection.
+The JVM decides when to actually perform garbage collection.
+
+#### Syntax
+
+```
+System.gc();
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/72605e8f-4219-4f53-ae35-68723aabc24b)
 
 ## License
 

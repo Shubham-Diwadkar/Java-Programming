@@ -7,6 +7,28 @@
 5. [How to Run](#how-to-run)
 6. [Hello World](#helloworldjava-file)
 7. [Mathematical Calculations](#mathematical_calculationsjava-file)
+8. [If Program](#if_programjava-file)
+9. [If Else Program](#if_else_programjava-file)
+10. [](#)
+11. [](#)
+12. [](#)
+13. [](#)
+14. [](#)
+15. [](#)
+16. [](#)
+17. [](#)
+18. [](#)
+19. [](#)
+20. [](#)
+21. [](#)
+22. [](#)
+23. [](#)
+24. [](#)
+25. [](#)
+26. [](#)
+27. [](#)
+28. [](#)
+29. [](#)
 
 ## Introduction
 Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.
@@ -26,7 +48,7 @@ To write and run Java programs, you need to install the Java Development Kit (JD
 Once installed, you can use any text editor or Integrated Development Environment (IDE) to write your Java code.
 Following are the steps to run the code.
 
-## Installation Links
+## Installation Link
 JDK v1.8: [Chick Here](https://www.oracle.com/in/java/technologies/javase/javase8-archive-downloads.html)
 
 ## How to Run

@@ -1,3 +1,5 @@
+//Write a program to demonstrate the use of finalize method in java
+
 public class Finalize_Method
 {
     public static void main(String[] args)

@@ -33,7 +33,7 @@
 29. [Method Overloading](#method_overloadingjava-file)
 30. [This Keyword Program](#this_keywordjava-file)
 31. [Garbage Collector](#garbage_collectorjava-file)
-32. [Finalize Method](#finalize-methodjava-file)
+32. [Finalize Method](#finalize_methodjava-file)
 33. [License](#license)
 
 ## Introduction

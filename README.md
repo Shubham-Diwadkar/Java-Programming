@@ -33,7 +33,8 @@
 29. [Method Overloading](#method_overloadingjava-file)
 30. [This Keyword Program](#this_keywordjava-file)
 31. [Garbage Collector](#garbage_collectorjava-file)
-32. [License](#license)
+32. [Finalize Method](#finalize-methodjava-file)
+33. [License](#license)
 
 ## Introduction
 Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.
@@ -875,13 +876,14 @@ methodName(this)
 
 This program demonstrates the use of the garbage collector in Java.
 
-In Java, objects that are no longer referenced are eligible for garbage collection.
-The JVM automatically reclaims the memory occupied by these objects to free up resources. The finalize() method is called by the garbage collector before an object is garbage collected.
+Objects that are no longer referenced are eligible for garbage collection.
+The JVM automatically reclaims the memory occupied by these objects to free up resources.
+The finalize() method is called by the garbage collector before an object is garbage collected.
 
-The Garbage_Collector class overrides the finalize() method to print a message when garbage collection is performed by the JVM.
-In the main() method, two Garbage_Collector objects s1 and s2 are created.
-After setting both objects to null, the System.gc() method is called to request garbage collection.
-The JVM decides when to actually perform garbage collection.
+- The Garbage_Collector class overrides the finalize() method to print a message when garbage collection is performed by the JVM.
+- In the main() method, two Garbage_Collector objects s1 and s2 are created.
+- After setting both objects to null, the System.gc() method is called to request garbage collection.
+- The JVM decides when to actually perform garbage collection.
 
 #### Syntax
 
@@ -892,6 +894,33 @@ System.gc();
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/72605e8f-4219-4f53-ae35-68723aabc24b)
+
+### Finalize_Method.java File
+
+This program demonstrates the usage of the finalize() method in Java.
+
+The finalize() method is a special method that is called by the garbage collector before an object is garbage collected.
+It gives the object an opportunity to perform any necessary cleanup actions.
+
+The Finalize_Method class overrides the finalize() method to print a message when the finalize() method is called.
+
+In the main() method:
+- A Finalize_Method object objFinalize_Method is created.
+- After setting objFinalize_Method to null, the System.gc() method is called to request garbage collection.
+- The JVM decides when to actually perform garbage collection.
+
+#### Syntax
+
+```
+protected void finalize() {
+    // Code to be executed before object is garbage collected
+    // ...
+}
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/59c913f2-e1b2-4698-9e7b-0a9e7fa15966)
 
 ## License
 

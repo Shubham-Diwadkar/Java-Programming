@@ -34,7 +34,8 @@
 30. [This Keyword Program](#this_keywordjava-file)
 31. [Garbage Collector](#garbage_collectorjava-file)
 32. [Finalize Method](#finalize_methodjava-file)
-33. [License](#license)
+33. [String Buffer Classes](#string_buffer_classesjava-file)
+34. [License](#license)
 
 ## Introduction
 Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.
@@ -921,6 +922,58 @@ protected void finalize() {
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/59c913f2-e1b2-4698-9e7b-0a9e7fa15966)
+
+### String_Buffer_Classes.java File
+
+This program demonstrates the usage of the StringBuffer class in Java.
+
+The StringBuffer class is used to create mutable sequences of characters. It provides various methods to modify and manipulate strings.
+
+In the main() method, several StringBuffer objects (sb, sb1, sb2, sb3, sb4) are created and used to perform various operations:
+
+- append(): Appends the specified string to the StringBuffer object.
+- insert(): Inserts the specified string at the specified position in the StringBuffer object.
+- replace(): Replaces the characters in a substring of the StringBuffer object with the specified string.
+- delete(): Deletes a substring from the StringBuffer object.
+- reverse(): Reverses the characters in the StringBuffer object.
+
+The program also demonstrates the capacity-related methods of the StringBuffer class:
+- capacity(): Returns the current capacity of the StringBuffer object.
+- ensureCapacity(): Increases the capacity of the StringBuffer object if it is less than the specified minimum capacity.
+
+#### Syntax
+- append():
+  ```
+  sb.append(str);
+  ```
+- insert():
+  ```
+  sb.insert(offset,str);
+  ```
+- replace():
+  ```
+  sb.replace(start,end,str);
+  ```
+- delete():
+  ```
+  sb.delete(start,end);
+  ```
+- reverse():
+  ```
+  sb.reverse();
+  ```
+- capacity():
+  ```
+  sb.capacity();
+  ```
+- ensureCapacity():
+  ```
+  sb.ensureCapacity(minimumCapacity);
+  ```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/0531746d-a493-40df-9d8d-a1381738f844)
 
 ## License
 

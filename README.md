@@ -35,7 +35,8 @@
 31. [Garbage Collector](#garbage_collectorjava-file)
 32. [Finalize Method](#finalize_methodjava-file)
 33. [String Buffer Classes](#string_buffer_classesjava-file)
-34. [License](#license)
+34. [Vectors](#vectorsjava-file)
+35. [License](#license)
 
 ## Introduction
 Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.
@@ -975,6 +976,86 @@ The program also demonstrates the capacity-related methods of the StringBuffer c
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/0531746d-a493-40df-9d8d-a1381738f844)
 
+### Vectors.java File
+
+This program demonstrates the usage of the Vector class in Java.
+
+The Vector class is a dynamic array that provides methods to add, remove, and manipulate elements. It is similar to an ArrayList but has synchronized methods, making it thread-safe.
+
+In the main() method, several Vector objects (vec, vec1, in) are created and used to perform various operations:
+
+- add(): Adds elements to the Vector object.
+- addElement(): Adds elements to the Vector object (deprecated method).
+- size(): Returns the size (number of elements) of the Vector object.
+- capacity(): Returns the current capacity of the Vector object.
+- contains(): Checks if a specific element is present in the Vector object.
+- indexOf(): Returns the index of the first occurrence of a specific element in the Vector object.
+- firstElement(): Returns the first element of the Vector object.
+- lastElement(): Returns the last element of the Vector object.
+- remove(): Removes the first occurrence of a specific element from the Vector object.
+- removeElementAt(): Removes an element at a specific index from the Vector object.
+- hashCode(): Returns the hash code of the Vector object.
+- get(): Returns the element at a specific index in the Vector object.
+
+#### Syntax
+- add():
+  ```
+  vec.add(str);
+  ```
+- addElement():
+  ```
+  vec.addElement(str);
+  ```
+- size():
+  ```
+  vec.size();
+  ```
+- capacity():
+  ```
+  vec.capacity();
+  ```
+- contains():
+  ```
+  vec.contains(str);
+  ```
+- indexOf():
+  ```
+  vec.indexOf(str);
+  ```
+- firstElement():
+  ```
+  vec.firstElement();
+  ```
+- lastElement():
+  ```
+  vec.lastElement();
+  ```
+- remove():
+  ```
+  vec.remove((Integer)vectorElementName);
+  ```
+  AND
+  ```
+  vec.remove(index);
+  ```
+- removeElementAt():
+  ```
+  vec.removeElementAt(index);
+  ```
+- hashCode():
+  ```
+  vec.hashCode();
+  ```
+- get():
+  ```
+  vec.get(index);
+  ```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/41c7cd37-dfda-4f3d-afe9-5f693ce8a56f)
+
+  
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

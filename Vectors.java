@@ -1,3 +1,5 @@
+//Write a program to demonstrate use of various Vector methods in java
+
 import java.util.*;
 
 public class Vectors

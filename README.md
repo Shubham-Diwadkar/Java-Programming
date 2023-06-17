@@ -36,7 +36,8 @@
 32. [Finalize Method](#finalize_methodjava-file)
 33. [String Buffer Classes](#string_buffer_classesjava-file)
 34. [Vectors](#vectorsjava-file)
-35. [License](#license)
+35. [Wrapper Classes](#wrapper_classesjava-file)
+36. [License](#license)
 
 ## Introduction
 Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.
@@ -1055,7 +1056,40 @@ In the main() method, several Vector objects (vec, vec1, in) are created and use
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/41c7cd37-dfda-4f3d-afe9-5f693ce8a56f)
 
-  
+### Wrapper_Classes.java File
+
+This program demonstrates the conversion between primitive types and their corresponding wrapper classes in Java.
+
+The Wrapper_Classes class contains a main() method:
+- Demonstrates the conversion between primitive types (int, byte, short, long, float, double, char, boolean) and their respective wrapper classes (Integer, Byte, Short, Long, Float, Double, Character, Boolean).
+- Converting from primitive types to wrapper classes.
+- Converting from wrapper classes to primitive types.
+
+#### Syntax
+
+1. Converting Wrapper Class to Primitive Type:
+    ```
+    WrapperClass obj = new WrapperClass(value);
+    PrimitiveType var = obj. primitiveValue();
+    ```
+2. Converting Primitive Type to Wrapper Class:
+    ```
+    PrimitiveType var = value;
+    WrapperClass obj = WrapperClass.valueOf(var);
+    ```
+3. Autoboxing (Automatic Conversion of Primitive Type to Wrapper Class):
+    ```
+    WrapperClass obj = value;
+    ```
+4. Unboxing (Automatic Conversion of Wrapper Class to Primitive Type):
+    ```
+    PrimitiveType var = obj;
+    ```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/c6f27d37-4955-45d8-aa55-31260672ab88)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

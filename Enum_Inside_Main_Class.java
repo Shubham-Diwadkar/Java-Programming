@@ -1,4 +1,4 @@
-// Write a program to demonstrate the declaration of Enum inside the class in java
+// Write a program to demonstrate Enum inside the main class in java
 
 public class Enum_Inside_Main_Class
 {

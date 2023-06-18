@@ -38,7 +38,7 @@
 34. [Vectors](#vectorsjava-file)
 35. [Wrapper Classes](#wrapper_classesjava-file)
 36. [Custom Wrapper Classes](#custom_wrapper_classesjava-file)
-37. [Simple Enum Declaration](#simple_enum_declarationjava-file)
+37. [Enum Inside Main Class](#enum_inside_main_classjava-file)
 38. [Main Method inside Enum](#main_method_inside_enumjava-file)
 39. [License](#license)
 
@@ -1118,7 +1118,7 @@ However, you can create your own custom wrapper class by following these general
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/01d8b507-d341-4006-b1f5-e9dd0f274d99)
 
-### Simple_Enum_Declaration.java File
+### Enum_Inside_Main_Class.java File
 
 This program demonstrates the implementation of a custom wrapper class in Java.
 

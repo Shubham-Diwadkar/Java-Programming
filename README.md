@@ -1139,10 +1139,13 @@ enum Season { WINTER, SPRING, SUMMER, FALL; }
 
 #### Output
 
-![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/bd333025-df9e-4114-b229-f5e2db436aad)
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/c7e76696-b819-441f-b41a-ab2a9bf99664)
+
+### Enum_With_Constants.java File
 
 
-### Main_Method_Inside_Enum.java File
+
+#### Output
 
 
 

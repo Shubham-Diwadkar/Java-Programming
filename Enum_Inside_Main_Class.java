@@ -1,6 +1,6 @@
 // Write a program to demonstrate the declaration of Enum inside the class in java
 
-public class Simple_Enum_Declaration
+public class Enum_Inside_Main_Class
 {
     public enum Season {WINTER, SPRING, SUMMER, FALL}                                                // Define an enum called Season with four constants: WINTER, SPRING, SUMMER, FALL
 

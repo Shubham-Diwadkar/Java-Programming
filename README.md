@@ -1130,11 +1130,11 @@ The CustomWrapper class is a custom wrapper class that wraps an int value.
 #### Syntax
 
 ```
-enum Season { WINTER, SPRING, SUMMER, FALL }
+enum enumName { constant1, constant2, constant3,... }
 ```
 OR
 ```
-enum Season { WINTER, SPRING, SUMMER, FALL; }
+enum enumName { constant1, constant2, constant3,...; }
 ```
 
 #### Output

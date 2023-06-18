@@ -39,7 +39,7 @@
 35. [Wrapper Classes](#wrapper_classesjava-file)
 36. [Custom Wrapper Classes](#custom_wrapper_classesjava-file)
 37. [Enum Inside Main Class](#enum_inside_main_classjava-file)
-38. [Main Method inside Enum](#main_method_inside_enumjava-file)
+38. [Enum with Constants](#enum_with_constantsjava-file)
 39. [License](#license)
 
 ## Introduction

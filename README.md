@@ -38,7 +38,8 @@
 34. [Vectors](#vectorsjava-file)
 35. [Wrapper Classes](#wrapper_classesjava-file)
 36. [Custom Wrapper Classes](#custom_wrapper_classesjava-file)
-37. [License](#license)
+37. [Defining Enum Inside Main Class](#inside_enum_declarationjava-file)
+38. [License](#license)
 
 ## Introduction
 Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.
@@ -1116,6 +1117,28 @@ However, you can create your own custom wrapper class by following these general
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/01d8b507-d341-4006-b1f5-e9dd0f274d99)
 
+### Inside_Enum_Declaration.java File
+
+This program demonstrates the implementation of a custom wrapper class in Java.
+
+The CustomWrapper class is a custom wrapper class that wraps an int value.
+- It provides methods to get and set the value, as well as override the toString() method to convert the value to a string representation.
+- The Custom_Wrapper_Classes class contains the main() method, which creates an instance of the CustomWrapper class and assigns a value to it.
+- It then prints the value using the System.out.println() statement, which internally calls the toString() method of the CustomWrapper class.
+
+#### Syntax
+
+```
+enum Season { WINTER, SPRING, SUMMER, FALL }
+```
+OR
+```
+enum Season { WINTER, SPRING, SUMMER, FALL; }
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/4bee1d39-0ae6-4ce2-917c-3ef3bfc84384)
 
 ## License
 

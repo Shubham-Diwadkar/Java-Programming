@@ -40,7 +40,8 @@
 36. [Custom Wrapper Classes](#custom_wrapper_classesjava-file)
 37. [Enum Inside Main Class](#enum_inside_main_classjava-file)
 38. [Enum with Constants](#enum_with_constantsjava-file)
-39. [License](#license)
+39. [Simple Inheritance](#simple_inheritancejava-file)
+40. [License](#license)
 
 ## Introduction
 Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.
@@ -1166,6 +1167,26 @@ enum enumName {
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/ad1875db-e1b4-470e-a4bd-24e85bf8e332)
+
+### Simple_Inheritance.java File
+
+This program demonstrates simple inheritance in Java.
+
+- The Employee class represents an employee and has a salary variable that is calculated as the product of 34534 and 12.
+- The Simple_Inheritance class extends the Employee class and adds a bonus variable that is calculated as the product of 3000 and 6.
+- In the main() method of the Simple_Inheritance class, an object of the Simple_Inheritance class is created. The salary and bonus values are accessed using the object and printed using the System.out.println() statement.
+
+#### Syntax
+```
+class Child extends Father   
+{  
+//functionality   
+}  
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/1717bc1b-7509-4aee-af05-71926a4be052)
 
 ## License
 

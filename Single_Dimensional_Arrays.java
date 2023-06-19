@@ -1,3 +1,5 @@
+// Write a program to demonstrate Single Dimensional Arrays in java
+
 public class Single_Dimensional_Arrays
 {
     public static void main(String[] args)

@@ -4,7 +4,7 @@ class Employee
 {
     float salary = 34534*12;                           // Salary calculated as a product of monthly salary and 12 months
 }
-public class Simple_Inheritance extends Employee
+class Simple_Inheritance extends Employee
 {
     float bonus = 3000*6;                              // Bonus calculated as a product of monthly bonus and 6 months
     public static void main(String[] args)

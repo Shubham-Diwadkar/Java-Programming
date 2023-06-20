@@ -1,4 +1,4 @@
-import javax.swing.ViewportLayout;
+// Write a program to demonstrate multiple inheritance in java
 
 class Student
 {

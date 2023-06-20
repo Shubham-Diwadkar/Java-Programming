@@ -41,7 +41,8 @@
 37. [Enum Inside Main Class](#enum_inside_main_classjava-file)
 38. [Enum with Constants](#enum_with_constantsjava-file)
 39. [Simple Inheritance](#simple_inheritancejava-file)
-40. [License](#license)
+40. [Multiple Inheritance](#multiple_inheritancejava-file)
+41. [License](#license)
 
 ## Introduction
 Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.
@@ -1187,6 +1188,30 @@ class Child extends Father
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/1717bc1b-7509-4aee-af05-71926a4be052)
+
+### Multiple_Inheritance.java File
+
+This program demonstrates multiple inheritance in Java.
+
+The program defines three classes: Student, Marks, and Sports. Each class inherits from the previous class:
+- The Student class has an instance variable reg_no and methods getNo() and putNo() to set and display the registration number.
+- The Marks class extends the Student class and adds an instance variable marks and methods getMarks() and putMarks() to set and display the marks.
+- The Sports class extends the Marks class and adds an instance variable score and methods getScore() and putScore() to set and display the score.
+- In the main() method of the Multiple_Inheritance class, an object of the Sports class is created.
+- The getNo(), getMarks(), and getScore() methods are called to set the values of reg_no, marks, and score, respectively.
+- Then, the putNo(), putMarks(), and putScore() methods are called to display the values.
+
+#### Syntax
+```
+class Child extends Father   
+{  
+//functionality   
+}  
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/ae0820fd-43be-4fd7-88ab-ae21a4dc6d07)
 
 ## License
 

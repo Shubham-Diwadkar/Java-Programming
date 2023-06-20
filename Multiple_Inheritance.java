@@ -2,12 +2,14 @@
 
 class Student
 {
-    int reg_no;
-    void getNo(int no)
+    int reg_no;// Variable to store registration number
+    
+    void getNo(int no)// Method to set the registration number
     {
         reg_no = no;
     }
-    void putNo()
+    
+    void putNo()// Method to display the registration number
     {
         System.out.println("Registration number = "+reg_no);
     }
@@ -15,12 +17,14 @@ class Student
 
 class Marks extends Student
 {
-    float marks;
-    void getMarks(float m)
+    float marks;// Variable to store marks
+    
+    void getMarks(float m)// Method to set the marks
     {
         marks = m;
     }
-    void putMarks()
+    
+    void putMarks()// Method to display the marks
     {
         System.out.println("Marks = "+marks);
     }
@@ -28,12 +32,14 @@ class Marks extends Student
 
 class Sports extends Marks
 {
-    double score;
-    void getScore(double scr)
+    double score;// Variable to store score
+    
+    void getScore(double scr)// Method to set the score
     {
         score = scr;
     }
-    void putScore()
+    
+    void putScore()// Method to display the score
     {
         System.out.println("Score = "+score);
     }
@@ -43,13 +49,16 @@ public class Multiple_Inheritance
 {
     public static void main(String[] args)
     {
-        Sports sportsObj = new Sports();
-        sportsObj.getNo(987);
-        sportsObj.putNo();
-        sportsObj.getMarks(78);
-        sportsObj.putMarks();
-        sportsObj.getScore(68.7);
-        sportsObj.putScore();
+        Sports sportsObj = new Sports();// Create an object of the Sports class
+        
+        sportsObj.getNo(987);// Set the registration number using the method from the Student class
+        sportsObj.putNo();// Display the registration number using the method from the Student class
+        
+        sportsObj.getMarks(78);// Set the marks using the method from the Marks class
+        sportsObj.putMarks();// Display the marks using the method from the Marks class
+        
+        sportsObj.getScore(68.7);// Set the score using the method from the Sports class
+        sportsObj.putScore();// Display the score using the method from the Sports class
 
     }
 }

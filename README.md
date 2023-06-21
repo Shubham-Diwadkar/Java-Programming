@@ -1214,6 +1214,64 @@ class Child extends Father
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/ae0820fd-43be-4fd7-88ab-ae21a4dc6d07)
 
+### Hierarchical_Inheritance.java File
+
+This program demonstrates hierarchical inheritance in Java.
+
+The program defines four classes: Student1, Science, Commerce, and Arts. Each class extends the Student1 class:
+- The Student1 class has a method methodStudent1() which prints a message indicating that the method of the Student class is invoked.
+- The Science class extends the Student1 class and adds a method methodScience() which prints a message indicating that the method of the Science class is invoked.
+- The Commerce class extends the Student1 class and adds a method methodCommerce() which prints a message indicating that the method of the Commerce class is invoked.
+- The Arts class extends the Student1 class and adds a method methodArts() which prints a message indicating that the method of the Arts class is invoked.
+- In the main() method of the Hierarchical_Inheritance class, objects of the Science, Commerce, and Arts classes are created.
+- The methodStudent1() method is called on each object to demonstrate that the inherited method from the Student1 class is accessible.
+
+#### Syntax
+```
+// Base class
+class Parent {
+    // Fields and methods of the Parent class
+}
+
+// Child class 1 inheriting from Parent class
+class Child1 extends Parent {
+    // Fields and methods of Child1 class
+}
+
+// Child class 2 inheriting from Parent class
+class Child2 extends Parent {
+    // Fields and methods of Child2 class
+}
+
+// Child class 3 inheriting from Parent class
+class Child3 extends Parent {
+    // Fields and methods of Child3 class
+}
+
+// Main class
+class Main {
+    public static void main(String[] args) {
+        // Create objects of Child classes and access their members
+        Child1 obj1 = new Child1();
+        obj1.method1(); // Call method1 of Child1 class
+
+        Child2 obj2 = new Child2();
+        obj2.method2(); // Call method2 of Child2 class
+
+        Child3 obj3 = new Child3();
+        obj3.method3(); // Call method3 of Child3 class
+
+        // Create object of Parent class and access its members
+        Parent obj = new Parent();
+        obj.method(); // Call method of Parent class
+    }
+}
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/8defed8b-a840-48b9-9ae1-ac9686020537)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

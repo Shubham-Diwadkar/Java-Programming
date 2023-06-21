@@ -1180,10 +1180,25 @@ This program demonstrates simple inheritance in Java.
 
 #### Syntax
 ```
-class Child extends Father   
-{  
-//functionality   
-}  
+// Base class
+class Parent {
+    // Fields and methods of the Parent class
+}
+
+// Derived class inheriting from Parent class
+class Child extends Parent {
+    // Fields and methods of Child class
+}
+
+// Main class
+class Main {
+    public static void main(String[] args) {
+        // Create object of Child class and access its members
+        Child obj = new Child();
+        obj.method1(); // Call method1 of Child class
+        obj.method2(); // Call method2 of Parent class
+    }
+}
 ```
 
 #### Output
@@ -1204,10 +1219,31 @@ The program defines three classes: Student, Marks, and Sports. Each class inheri
 
 #### Syntax
 ```
-class Child extends Father   
-{  
-//functionality   
-}  
+// Base class
+class Parent {
+    // Fields and methods of the Parent class
+}
+
+// Intermediate class inheriting from Parent class
+class Child extends Parent {
+    // Fields and methods of Child class
+}
+
+// Derived class inheriting from Child class
+class Grandchild extends Child {
+    // Fields and methods of Grandchild class
+}
+
+// Main class
+class Main {
+    public static void main(String[] args) {
+        // Create object of Grandchild class and access its members
+        Grandchild obj = new Grandchild();
+        obj.method1(); // Call method1 of Grandchild class
+        obj.method2(); // Call method2 of Child class
+        obj.method3(); // Call method3 of Parent class
+    }
+}
 ```
 
 #### Output

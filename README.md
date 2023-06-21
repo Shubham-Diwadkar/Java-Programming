@@ -42,7 +42,8 @@
 38. [Enum with Constants](#enum_with_constantsjava-file)
 39. [Simple Inheritance](#simple_inheritancejava-file)
 40. [Multiple Inheritance](#multi-level_inheritancejava-file)
-41. [License](#license)
+41. [Hierarchical Inheritance](#hierarchical_inheritancejava-file)
+42. [License](#license)
 
 ## Introduction
 Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.

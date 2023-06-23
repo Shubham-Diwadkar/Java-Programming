@@ -43,7 +43,8 @@
 39. [Simple Inheritance](#simple_inheritancejava-file)
 40. [Multiple Inheritance](#multi-level_inheritancejava-file)
 41. [Hierarchical Inheritance](#hierarchical_inheritancejava-file)
-42. [License](#license)
+42. [Hybrid Inheritance](#hybrid_inheritancejava-file)
+43. [License](#license)
 
 ## Introduction
 Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.
@@ -1307,6 +1308,30 @@ class Main {
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/8defed8b-a840-48b9-9ae1-ac9686020537)
+
+### Hybrid_Inheritance.java File
+
+This code demonstrates a hybrid inheritance scenario in Java, where multiple inheritance is achieved through a combination of hierarchical inheritance and multiple inheritance.
+
+- `GrandFather`: The base class representing the grand father.
+- `Father`: Inherits from `GrandFather` and represents the father.
+- `Son`: Inherits from `Father` and represents the son.
+- `Hybrid_Inheritance`: Inherits from `Father` and represents a daughter.
+
+Each class overrides the `show()` method from its superclass to provide its own implementation:
+- `GrandFather`: Displays "I am Grand Father".
+- `Father`: Displays "I am Father".
+- `Son`: Displays "I am Son".
+- `Hybrid_Inheritance`: Displays "I am a Daughter".
+
+#### Syntax
+
+In Java, Hybrid Inheritance is not supported directly.
+Hybrid Inheritance refers to a combination of multiple inheritance (where a class inherits from multiple parent classes) and hierarchical inheritance (where multiple classes inherit from a single base class).
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/9c775975-b403-437a-a3d8-6469aeb97269)
 
 ## License
 

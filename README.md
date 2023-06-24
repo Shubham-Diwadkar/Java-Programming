@@ -44,7 +44,8 @@
 40. [Multi-level Inheritance](#multi_level_inheritancejava-file)
 41. [Hierarchical Inheritance](#hierarchical_inheritancejava-file)
 42. [Hybrid Inheritance](#hybrid_inheritancejava-file)
-43. [License](#license)
+43. [Multiple Inheritance](#multiple_inheritancejava-file)
+44. [License](#license)
 
 ## Introduction
 Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) and released in 1995.
@@ -1332,6 +1333,53 @@ Hybrid Inheritance refers to a combination of multiple inheritance (where a clas
 #### Output
 
 ![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/9c775975-b403-437a-a3d8-6469aeb97269)
+
+### Multiple_Inheritance.java File
+
+This code illustrates multiple inheritance using interfaces in Java.
+
+Two interfaces are defined in this code:
+- `Wishes`: Defines a method `message()`.
+- `Birthday`: Defines a method `message()`.
+
+The `Greetings` class implements both `Wishes` and `Birthday` interfaces.
+It provides an implementation for the `message()` method, which prints out the messages "Best of Luck!!!" and "Happy Birthday!!!".
+
+In the provided code, the `main()` method is included in the `Multiple_Inheritance` class.
+When executed, it creates an instance of the `Greetings` class named `greetingsObj` and calls its `message()` method.
+
+#### Syntax
+```
+interface Interface1 {
+    void method1();
+}
+
+interface Interface2 {
+    void method2();
+}
+
+class MyClass implements Interface1, Interface2 {
+    public void method1() {
+        // Implementation of method1
+    }
+
+    public void method2() {
+        // Implementation of method2
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyClass obj = new MyClass();
+        obj.method1();
+        obj.method2();
+    }
+}
+```
+
+#### Output
+
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/2921a9c6-98b7-4582-944a-d41b727fd6e0)
 
 ## License
 

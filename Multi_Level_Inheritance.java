@@ -45,7 +45,7 @@ class Sports extends Marks
     }
 }
 
-public class Multiple_Inheritance
+public class Multi_Level_Inheritance
 {
     public static void main(String[] args)
     {

@@ -1,4 +1,4 @@
-// Write a program to demonstrate multiple inheritance in java
+// Write a program to demonstrate Multi-level Inheritance in java
 
 class Student
 {

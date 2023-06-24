@@ -41,7 +41,7 @@
 37. [Enum Inside Main Class](#enum_inside_main_classjava-file)
 38. [Enum with Constants](#enum_with_constantsjava-file)
 39. [Simple Inheritance](#simple_inheritancejava-file)
-40. [Multiple Inheritance](#multi-level_inheritancejava-file)
+40. [Multi-level Inheritance](#multi-level_inheritancejava-file)
 41. [Hierarchical Inheritance](#hierarchical_inheritancejava-file)
 42. [Hybrid Inheritance](#hybrid_inheritancejava-file)
 43. [License](#license)

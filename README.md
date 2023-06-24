@@ -1249,7 +1249,7 @@ class Main {
 
 #### Output
 
-![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/ae0820fd-43be-4fd7-88ab-ae21a4dc6d07)
+![image](https://github.com/Shubham-Diwadkar/Java-Programming/assets/125255910/0456c2d7-96ea-41eb-9601-b6820e411807)
 
 ### Hierarchical_Inheritance.java File
 

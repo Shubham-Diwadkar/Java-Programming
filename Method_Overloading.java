@@ -1,6 +1,6 @@
 // Write a program to demonstrate Method Overloading in java
 
-public class Method_Orverloading
+public class Method_Overloading
 {
     static int plusMethod(int x, int y)                     // Method that takes two integers and returns their sum
     {
